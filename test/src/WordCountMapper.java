@@ -6,20 +6,16 @@ import org.apache.hadoop.mapreduce.Mapper;
 import java.io.IOException;
 
 
-public class WordCountMapper extends Mapper<LongWritable, Text,Text,IntWritable> {
-    protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException{
-        //得到输入的每一行数据
-        String line = value.toString();
+public class WordCountMapper extends Mapper<LongWritable,Text,Text,IntWritable> {
+    public void map(LongWritable key,Text value,Context context)throws IOException,InterruptedException{
 
-        //通过空格分隔
-        String[] words = line.split(" ");
+        String line = value.toString();//读取一行数据
 
-        //循环遍历输出
-        for(String word : words){
-            context.write(new Text(word), new IntWritable(1));
+        String str[] = line.split("");//因为英文字母是以“ ”为间隔的，因此使用“ ”分隔符将一行数据切成多个单词并存在数组中
+
+        for(String s :str){//循环迭代字符串，将一个单词变成<key,value>形式，及<"hello",1>
+            context.write(new Text(s),new IntWritable(1));
         }
     }
-
 }
-
 
