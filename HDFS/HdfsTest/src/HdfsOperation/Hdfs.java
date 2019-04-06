@@ -13,7 +13,7 @@ import java.net.URLConnection;
 public class Hdfs {
 
     //读取
-    //
+    //通过java自带函数实现
     public void readFile(String dir, String fileName) throws Exception {
         URL.setURLStreamHandlerFactory(new FsUrlStreamHandlerFactory());
         URL url = new URL("Hdfs://192.168.2.129:9000"+dir+fileName);
@@ -29,6 +29,7 @@ public class Hdfs {
     }
 
     //通过调用api读取文件
+    //
     public void readFileByAPI(String dir, String fileName) throws Exception {
         Configuration conf = new Configuration();
         conf.set("fs.defaultFS", "hdfs://192.168.2.129:9000/");
@@ -77,11 +78,11 @@ public class Hdfs {
         out.close();
     }
     //删除文件
-    public void removeFile() throws Exception{
+    public void removeFile(String dir) throws Exception{
         Configuration conf = new Configuration();
         conf.set("fs.defaultFS", "hdfs://192.168.2.129:9000/");
         FileSystem fs = FileSystem.get(conf) ;
-        Path p = new Path("/user/hadoop/myhadoop");
+        Path p = new Path(dir);
         fs.delete(p, true);
     }
 
