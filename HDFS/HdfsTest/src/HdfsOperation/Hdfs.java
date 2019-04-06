@@ -32,15 +32,16 @@ public class Hdfs {
     //
     public void readFileByAPI(String dir, String fileName) throws Exception {
         Configuration conf = new Configuration();
-        conf.set("fs.defaultFS", "hdfs://192.168.2.129:9000/");
-        FileSystem fs = FileSystem.get(conf);
-        Path p = new Path(dir+fileName);
-        FSDataInputStream fsDataInputStream = fs.open(p);
-        byte[] buf = new byte[1024];
-        int len = -1;
-        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-        while ((len = fsDataInputStream.read(buf)) != -1) {
-            byteArrayOutputStream.write(buf, 0, len);
+        conf.set("fs.defaultFS", "hdfs://192.168.2.129:9000/");     //写入hdfs参数（如果不写会用本地文件系统）
+                                                                    //指明名称节点位置
+        FileSystem fs = FileSystem.get(conf);       //文件系统实例化
+        Path p = new Path(dir+fileName);       //hadoop中的路径类
+        FSDataInputStream fsDataInputStream = fs.open(p);   //获得输入流
+        byte[] buf = new byte[1024];        //定义缓冲区
+        int len = -1;       //定义长度
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();  //用来写入读出来的数据
+        while ((len = fsDataInputStream.read(buf)) != -1) {     //读到全部读完为止
+            byteArrayOutputStream.write(buf, 0, len);   //写入读出来的数据
         }
         fsDataInputStream.close();
         byteArrayOutputStream.close();
@@ -50,13 +51,13 @@ public class Hdfs {
 
     public void readFileByAPI2(String dir, String fileName) throws Exception {
         Configuration conf = new Configuration();
-        conf.set("fs.defaultFS", "hdfs://192.168.2.129:9000/");
-        FileSystem fs = FileSystem.get(conf) ;
-        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        conf.set("fs.defaultFS", "hdfs://192.168.2.129:9000/");   //写hdfs配置
+        FileSystem fs = FileSystem.get(conf) ;      //文件系统初始化
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();   //用来写入读出来的数据
 
-        Path p = new Path(dir+fileName);
-        FSDataInputStream fis = fs.open(p);
-        IOUtils.copyBytes(fis, baos, 1024);
+        Path p = new Path(dir+fileName);    //配置地址
+        FSDataInputStream fis = fs.open(p);     //获得输入流
+        IOUtils.copyBytes(fis, baos, 1024);     //使用hadoop自带函数来实现上面的循环
         System.out.println(new String(baos.toByteArray()));
     }
 
@@ -65,7 +66,7 @@ public class Hdfs {
         Configuration conf = new Configuration();
         conf.set("fs.defaultFS", "hdfs://192.168.2.129:9000/");
         FileSystem fs = FileSystem.get(conf) ;
-        fs.mkdirs(new Path(dir));
+        fs.mkdirs(new Path(dir));   //新建文件夹命令
     }
 
     //上传文件
@@ -73,8 +74,8 @@ public class Hdfs {
         Configuration conf = new Configuration();
         conf.set("fs.defaultFS", "hdfs://192.168.2.129:9000/");
         FileSystem fs = FileSystem.get(conf) ;
-        FSDataOutputStream out = fs.create(new Path(dir+fileName));
-        out.write("helloworld".getBytes());
+        FSDataOutputStream out = fs.create(new Path(dir+fileName));  //创建文件输出流
+        out.write("helloworld".getBytes());     //写文件
         out.close();
     }
     //删除文件
