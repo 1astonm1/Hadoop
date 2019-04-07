@@ -4,13 +4,13 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
 
-public class WCreduce extends Reducer<Text, IntWritable, Text, IntWritable> {
+public class WCReducer extends Reducer<Text, IntWritable, Text, IntWritable> {
     @Override
     protected void reduce(Text key, Iterable<IntWritable> values, Context context) throws IOException, InterruptedException {
-        int count = 0;
-        for (IntWritable iw : values){
+        int count = 0;  //计数
+        for (IntWritable iw : values){  //读出数值
             count =count + iw.get();
         }
-        context.write(key, new IntWritable(count));
+        context.write(key, new IntWritable(count)); // 用context输出
     }
 }
