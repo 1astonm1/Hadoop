@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="HdfsTest" />
+        <module name="MapReduceTest" />
         <module name="MavenTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="HdfsTest" target="1.5" />
+      <module name="MapReduceTest" target="1.5" />
       <module name="MavenTest" target="1.5" />
     </bytecodeTargetLevel>
   </component>

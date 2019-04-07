@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/MavenTest/pom.xml" />
         <option value="$PROJECT_DIR$/HdfsTest/pom.xml" />
+        <option value="$PROJECT_DIR$/MapReduceTest/pom.xml" />
       </list>
     </option>
   </component>
