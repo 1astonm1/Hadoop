@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Hadooplearning.iml" filepath="$PROJECT_DIR$/Hadooplearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HdfsTest/HdfsTest.iml" filepath="$PROJECT_DIR$/HdfsTest/HdfsTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MavenTest/MavenTest.iml" filepath="$PROJECT_DIR$/MavenTest/MavenTest.iml" />
+    </modules>
+  </component>
+</project>
