@@ -32,5 +32,6 @@ public class WCMapReduce {
         job.setMapOutputValueClass(IntWritable.class);  //设置map输出value类型
 
         job.waitForCompletion(true);
+
     }
 }

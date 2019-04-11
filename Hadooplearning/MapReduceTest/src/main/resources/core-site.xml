@@ -16,13 +16,11 @@
 
 <!-- Put site-specific property overrides in this file. -->
 
+
 <configuration>
-	<property>
-		 <name>fs.defaultFS</name>
-    		<value>hdfs://localhost:8010</value>
-	</property>
-	<property>
-   		 <name>hadoop.tmp.dir</name>
-    		 <value>E:\Hadoop\workspace</value>
-   	</property>
+<property>
+      <name>fs.defaultFS</name>
+      <value>hdfs://localhost:9000</value>
+</property>
 </configuration>
+
