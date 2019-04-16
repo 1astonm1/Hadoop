@@ -7,10 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ca7b7a0-581e-4b5a-b40c-2687d94de846" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/wordcount.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MapReduceTest/src/file/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduceTest/src/main/java/WCMapReduce.java" beforeDir="false" afterPath="$PROJECT_DIR$/MapReduceTest/src/main/java/WCMapReduce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduceTest/target/classes/WCMapReduce.class" beforeDir="false" afterPath="$PROJECT_DIR$/MapReduceTest/target/classes/WCMapReduce.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test/out/artifacts/HadoopWordCount_jar/HadoopWordCount.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/artifacts/HadoopWordCount_jar/HadoopWordCount.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/HadoopWordCount/WordCountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/production/HadoopWordCount/WordCountMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/WordCountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/WordCountMapper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/MavenTest/target/" />
@@ -54,19 +58,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MapReduceTest/src/main/java/WCMapReduce.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="293">
+              <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MapReduceTest/src/main/resources/core-site.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-187" />
           </provider>
         </entry>
       </file>
@@ -99,6 +96,7 @@
         <option value="$PROJECT_DIR$/MapReduceTest/src/main/java/WCMapper.java" />
         <option value="$PROJECT_DIR$/MapReduceTest/pom.xml" />
         <option value="$PROJECT_DIR$/MapReduceTest/src/main/resources/core-site.xml" />
+        <option value="$PROJECT_DIR$/MapReduceTest/src/file/test.txt" />
         <option value="$PROJECT_DIR$/MapReduceTest/src/main/java/WCMapReduce.java" />
       </list>
     </option>
@@ -132,10 +130,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -154,6 +151,30 @@
               <item name="Hadooplearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hadooplearning" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Hadooplearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadooplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="MapReduceTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hadooplearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadooplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="MapReduceTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hadooplearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadooplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="MapReduceTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hadooplearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hadooplearning" type="462c0819:PsiDirectoryNode" />
+              <item name="MapReduceTest" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -171,7 +192,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -224,6 +245,7 @@
     <configuration name="WCMapReduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WCMapReduce" />
       <module name="MapReduceTest" />
+      <option name="PROGRAM_PARAMETERS" value="///E:\Project\Git\Hadoop\Hadooplearning\MapReduceTest\src\file ///E:\Project\Git\Hadoop\Hadooplearning\MapReduceTest\src\file\output" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -260,17 +282,18 @@
       <workItem from="1554799102144" duration="2414000" />
       <workItem from="1554951396876" duration="2383000" />
       <workItem from="1554953946129" duration="2191000" />
-      <workItem from="1555412350384" duration="3391000" />
+      <workItem from="1555412350384" duration="4309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25678000" />
+    <option name="totallyTimeSpent" value="26596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19894099" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -279,7 +302,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.33442622" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,10 +426,30 @@
         <state relative-caret-position="-187" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduceTest/target/classes/WCMapReduce.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#1333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduceTest/src/file/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapReduceTest/src/file/output/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/MapReduceTest/src/main/java/WCMapReduce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="293">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
