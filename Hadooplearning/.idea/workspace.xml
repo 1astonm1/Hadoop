@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ca7b7a0-581e-4b5a-b40c-2687d94de846" name="Default Changelist" comment="" />
+    <list default="true" id="3ca7b7a0-581e-4b5a-b40c-2687d94de846" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../MapreduceLearning/SetNumber/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapreduceLearning/SetNumber/src/main/java/WCMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/MavenTest/target/" />
     <ignored path="$PROJECT_DIR$/HdfsTest/target/" />
@@ -22,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MapReduceTest/src/main/java/WCMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="126">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MapReduceTest/src/main/java/WCMapReduce.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="210">
               <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -84,11 +88,11 @@
         <option value="$PROJECT_DIR$/MapReduceTest/src/main/java/WCmapreduce.java" />
         <option value="$PROJECT_DIR$/MapReduceTest/src/main/java/WCReduce.java" />
         <option value="$PROJECT_DIR$/MapReduceTest/src/main/java/WCReducer.java" />
-        <option value="$PROJECT_DIR$/MapReduceTest/src/main/java/WCMapper.java" />
         <option value="$PROJECT_DIR$/MapReduceTest/pom.xml" />
         <option value="$PROJECT_DIR$/MapReduceTest/src/main/resources/core-site.xml" />
         <option value="$PROJECT_DIR$/MapReduceTest/src/file/test.txt" />
         <option value="$PROJECT_DIR$/MapReduceTest/src/main/java/WCMapReduce.java" />
+        <option value="$PROJECT_DIR$/MapReduceTest/src/main/java/WCMapper.java" />
       </list>
     </option>
   </component>
@@ -134,28 +138,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Hadooplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hadooplearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadooplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hadooplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="MapReduceTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadooplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hadooplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="MapReduceTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -164,7 +147,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554774569238" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MapReduceTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -262,16 +245,19 @@
       <workItem from="1554953946129" duration="2191000" />
       <workItem from="1555412350384" duration="5092000" />
       <workItem from="1555419365119" duration="2464000" />
+      <workItem from="1555468207106" duration="686000" />
+      <workItem from="1555469696410" duration="410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29843000" />
+    <option name="totallyTimeSpent" value="30939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15733737" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16187595" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -402,8 +388,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MapReduceTest/src/main/java/WCMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="126">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -422,7 +408,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MapReduceTest/src/main/java/WCMapReduce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="210">
           <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
