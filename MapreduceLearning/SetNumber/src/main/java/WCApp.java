@@ -24,7 +24,7 @@ public class WCApp {
         job.setMapperClass(WCMapper.class);
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(IntWritable.class);
-        
+
         job.setReducerClass(WCReduce.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
