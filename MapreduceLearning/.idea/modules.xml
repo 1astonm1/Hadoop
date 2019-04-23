@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MapreduceLearning.iml" filepath="$PROJECT_DIR$/MapreduceLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaxTemp/MaxTemp.iml" filepath="$PROJECT_DIR$/MaxTemp/MaxTemp.iml" />
       <module fileurl="file://$PROJECT_DIR$/SetNumber/SetNumber.iml" filepath="$PROJECT_DIR$/SetNumber/SetNumber.iml" />
     </modules>
   </component>
