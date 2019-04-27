@@ -14,8 +14,7 @@ public class MaxTempMapper extends Mapper<IntWritable, IntWritable, IntWritable,
         String arr[] = key.toString().split(" ");
 
         for(String s:arr){
-            keyOut = arr[0];
-            valueOut = arr[1];
+
         }
 
 

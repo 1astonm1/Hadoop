@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/MapreduceLearning.iml" filepath="$PROJECT_DIR$/MapreduceLearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaxTemp/MaxTemp.iml" filepath="$PROJECT_DIR$/MaxTemp/MaxTemp.iml" />
       <module fileurl="file://$PROJECT_DIR$/SetNumber/SetNumber.iml" filepath="$PROJECT_DIR$/SetNumber/SetNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WordCounttoken/WordCounttoken.iml" filepath="$PROJECT_DIR$/WordCounttoken/WordCounttoken.iml" />
     </modules>
   </component>
 </project>

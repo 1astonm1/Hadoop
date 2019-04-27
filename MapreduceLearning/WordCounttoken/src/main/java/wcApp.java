@@ -9,27 +9,33 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 import java.io.IOException;
 
-public class WCApp {
-    public static void main(String[] args) throws Exception {
+public class wcApp {
+
+    public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
         Configuration conf = new Configuration();
         Job job = new Job(conf);
 
+        job.setJobName("wordcount");
+        job.setJarByClass(wcApp.class);
+        job.setNumReduceTasks(1);
+
         job.setInputFormatClass(TextInputFormat.class);
-        job.setJobName("word count set number");
-        job.setJarByClass(WCApp.class);
 
         FileInputFormat.addInputPath(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
-        job.setMapperClass(WCMapper.class);
-        job.setMapOutputKeyClass(Text.class);
-        job.setMapOutputValueClass(IntWritable.class);
-
-        job.setReducerClass(WCReduce.class);
-        job.setOutputKeyClass(Text.class);
+        job.setReducerClass(wcReducer.class);
         job.setOutputValueClass(IntWritable.class);
-        job.setNumReduceTasks(1);
+        job.setOutputKeyClass(Text.class);
+
+        job.setMapperClass(wcMapper.class);
+        job.setMapOutputValueClass(IntWritable.class);
+        job.setMapOutputKeyClass(Text.class);
 
         job.waitForCompletion(true);
+
+
     }
+
+
 }

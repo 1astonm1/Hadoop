@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/SetNumber/pom.xml" />
         <option value="$PROJECT_DIR$/MaxTemp/pom.xml" />
+        <option value="$PROJECT_DIR$/WordCounttoken/pom.xml" />
       </list>
     </option>
   </component>
